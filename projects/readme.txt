@@ -1,8 +1,9 @@
-Simple rock paper scissors game. 
--Future improvements
-  -make a front end
-    -
-    -
-  -better testing
-  -condense the logic
-    -maybe loop it
+---------- Projects ----------
+
+-- Rock Paper Scissors --
+-This was an exercise from the Code Academy website JavaScript course.
+
+-- textScrub --
+-This is an exercise to improve on array iteration in the Code Academy website JavaScript course
+- I decided to add to it a bit and plan to more.
+
