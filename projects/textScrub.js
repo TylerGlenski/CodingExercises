@@ -1,3 +1,4 @@
+
 /* build the textString * to be replaced with input from user
 */
 let textString = ''
@@ -40,9 +41,19 @@ betterWords.forEach(function(word){
   
 });
 
+/* will count the number of sentences
+Add in the ability to check for double sepcial characters '. , / ; '? , . etc and mistypes
+*/
+let sentences = 0;
+betterWords.forEach(word => {
+  if (word[word.length-1] === '.' || word[word.length-1] === '!') {
+    sentences+=1;
+  }
+});
 console.log(betterWords.length);
 console.log(inputOneCounter);
 console.log(inputTwoCounter);
+console.log(sentences)
 //console.log(betterWords.length);
 
 /*
@@ -53,5 +64,4 @@ console.log(inputTwoCounter);
   # Convert entire script to a function call for 		  larger program
   # Plan other additions
   
-
 */
