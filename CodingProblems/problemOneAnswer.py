@@ -6,12 +6,20 @@ k is guaranteed to be smaller than the length of the list.
 The list is very long
 Do this in one pass.
 '''
-### My Answer ###
+## My Answer ##
 #create a test list here
-test_list = ['is', 'guaranteed', 'to', 'be',
-'smaller', 'than', 'the', 'length',
-'of', 'the', 'list', 'index',
-'variable', 'to', 'keep', 'logic'] # string test  #[i for i in range(11)] #integer test
+test_list = [       # string test  #[i for i in range(11)] #integer test
+    'is', 'guaranteed',
+    'to', 'be',
+    'smaller', 'than',
+    'the', 'length',
+    'of', 'the',
+    'list', 'index',
+    'variable', 'to',
+    'keep', 'logic',
+    'one','two',
+    'three', 'four'
+] 
     
 def remove_kth_element(inputList, k):
     
