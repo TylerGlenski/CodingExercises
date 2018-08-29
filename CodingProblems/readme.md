@@ -1,4 +1,4 @@
-...
+#
 Problem One
   '''
   Given a list and an integer k, remove every kth  element from the list.
@@ -7,7 +7,9 @@ Problem One
   The list could be very long.
   Do this in one pass.
   '''
-...
+#
+#
+#
 Problem Two
   '''
   Good morning! Here's your coding interview problem for today.
