@@ -11,7 +11,7 @@ const getUserChoice = userInput => {
     console.log('invalid input')
   }
 }
-
+// modify computers choice here
 const getComputerChoice = () => {
   var ran = Math.floor(Math.random() * 3)
   switch(ran){
@@ -23,6 +23,7 @@ const getComputerChoice = () => {
       return 'scissors';  
   }
 }
+// modify rules here
 function determineWinner (userChoice,computerChoice) {
   if (userChoice === 'bomb'){
     return 'user won'
@@ -55,7 +56,7 @@ function determineWinner (userChoice,computerChoice) {
     }     
   }
 }
-
+// play function here
 function playGame(){
   var userChoice = getUserChoice(choice);
   var computerChoice = getComputerChoice();
