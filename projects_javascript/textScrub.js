@@ -9,8 +9,10 @@ textString += '  The GW is actually very long - 4,760 feet! I was already very t
 textString += '  Something that was very surprising to me was that near the end of the route you actually cross back into New York! At this point, you are very close to the end.'
 
 let overusedWords = ['really', 'very', 'basically'];
+
 // below are 'input words' these will be used to check your writing for custom overused words in the list
 //for now 2 add a scaling solution later
+
 let inputOne = 'really';
 let inputTwo = 'very';
 //
@@ -26,8 +28,8 @@ let betterWords = textStringWords.filter(word => !unnecessaryWords.includes(word
 
 betterWords.forEach(function(word){
   
-  for(let i = 0; i < overusedWords.length;i++){
-    if(word === overusedWords[i]){
+  for(let i = 0; i < overusedWords.length;i++){  //
+    if(word === overusedWords[i]){ 
        let tempString = overusedWords[i]
        
        if(tempString === inputOne){
@@ -50,6 +52,8 @@ betterWords.forEach(word => {
     sentences+=1;
   }
 });
+
+// Tests
 console.log(betterWords.length);
 console.log(inputOneCounter);
 console.log(inputTwoCounter);
